@@ -22,7 +22,7 @@ while inp:
     score_state = game()
     if score_state :
         score = score+1
-        print("You Guessed it Correct! current score: ",score)
+        print("\nYou Guessed it Correct! current score: ",score)
     else:
-        print("Sorry. That's wrong. final score: ", score)
+        print("\nSorry. That's wrong. final score: ", score)
         continue
